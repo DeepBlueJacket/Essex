@@ -5,10 +5,31 @@
 
 	</head>
 <style>
+.entry 
+{
+	background: rgb( 51, 153, 255) ;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
 
+.entry-text
+{
+	color: white;
+}
+
+.entry-container
+{
+	border-left: 50px, rgb(51, 102, 204) solid;
+    border-right: 50px, rgb(51, 102, 204) solid;
+}
+.entry img
+{
+	width: 100%;
+	height: auto;
+}
 </style>
 	<header>
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-invert">
 		    <a href="#" class="navbar-brand">Aquario</a>
 		    <ul class="nav nav-tabs nav-justified">
 		        <li class="active"><a href="#" class="">Pulpo</a></li>
@@ -18,6 +39,27 @@
 		</nav>
 	</header>
 	<body>
-		
+		<div class="container entry-container">
+			<div class="container entry">
+			<!--Imagen del pulpo-->
+				<div class="col-md-4">	
+					<img class="img-responsive" src="./img/pulpo.jpg">
+				</div>
+			<!--Titulo-->
+				<div class="col-md-6 entry-text"> 
+					<h3>Pulpo de aquario opina acerca de Google<h3>
+				</div>
+			</div>		
+			<div class="container entry">
+			<!--Imagen del pulpo-->
+				<div class="col-md-4">	
+					<img class="img-responsive" src="./img/oficinas.jpeg">
+				</div>
+			<!--Titulo-->
+				<div class="col-md-6 entry-text"> 
+					<h3>Oficinas de acuario<h3>
+				</div>
+			</div>			
+		</div>
 	</body>
 </html>
